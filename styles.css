@@ -1,5 +1,6 @@
 body{
   font-family: Gaegu;
+  /* override the blue background */
   background-image: linear-gradient(white, rgb(255, 102, 0), black) !important;
   background-color: blue;
 }
@@ -99,8 +100,24 @@ a {
   text-decoration: none;
   color: black;
 }
-@media(max-width: 640px){
+
+/* for narrow screen */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-family: "Silkscreen", serif;
+  }
+}
+
+/* for medium screens */
+@media screen and (min-width: 700px) and (max-width: 1000px) {
   body {
-    background-color: blue;
+    color: blue;
+  }
+}
+
+/* for wide screen */
+@media screen and (min-width: 1300px) {
+  h1 {
+    font-family: "Edu AU VIC WA NT Guides", serif;
   }
 }
