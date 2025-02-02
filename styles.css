@@ -7,9 +7,78 @@ body{
   margin: 0, auto;
 }
 
-header {
-  text-align: center;
+.grid-container {
+  background-color:black;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 1%;
 }
+
+.grid-container > div {
+  background-color: pink;
+  text-align: center;
+  font-size: 30px;
+}
+
+.toprow-1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.toprow-2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.toprow-3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.toprow-4 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+
+.toprow-5 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+}
+
+.toprow-6 {
+  grid-column-start: 6;
+  grid-column-end: 6;
+}
+.row1-col1-6 {
+  background-color: aqua;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin-left: 1%;
+}
+
+.row2-col1-4 {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-left: 2%;
+}
+
+.row2-col5-6 {
+  background-color:gold;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.row3-col1-6 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin-left: 1%;
+} */
+
+/* header {
+  text-align: center;
+} */
+
 h1 {
   background: -webkit-linear-gradient(white, black);
   -webkit-background-clip: text;

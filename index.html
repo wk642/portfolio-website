@@ -11,55 +11,105 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+  <!-- adding fontawesome for icon-->
+  <script src="https://kit.fontawesome.com/6190dbb9d7.js" crossorigin="anonymous"></script>
 </head>
   <body>
     <div class="container">
-      <header>
-        <img src="./assets/images/profilePicture.jpeg" alt="portfolio picutre" id="profile-picture">
-        <h1>Winnie Kelley</h1>
-        <h5>Thrive in building and problem-solving. Come follow my growing journey by coding byte by byte.</h5>
-      </header>
+      <div class="grid-container">
+        <div class="toprow-1">
+          1
+        </div>
+
+        <div class="toprow-2">
+          2
+        </div>
+
+        <div class="toprow-3">
+          3
+        </div>
+
+        <div class="toprow-4">
+          4
+        </div>
+
+        <div class="toprow-5">
+          5
+        </div>
+
+        <div class="toprow-6">
+          6
+        </div>
+        <div class="row1-col1-6">
+          <header>
+            <img src="./assets/images/profilePicture.jpeg" alt="portfolio picutre" id="profile-picture">
+            <h1>Winnie Kelley</h1>
+            <h5>Thrive in building and problem-solving. Come follow my growing journey by coding byte by byte.</h5>
+          </header>
+        </div>
+        
+        <div class="row2-col1-4">
+          <section>
+            <h3>Past Experiences</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>SQL</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Photoshop</li>
+              <li>Lightwave</li>
+              <li>After Effects</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="row2-col5-6">
+          <secton>
+            <ul>
+              <li>About Me</li>
+              <li>My Work</li>
+              <li>Upcoming work</li>
+              <li>Contact Me</li>
+            </ul>
+          </secton>
+          
+          <section>
+            <p><i class="fa-solid fa-phone"></i>  617.416.1794</p>
+            <p><i class="fa-solid fa-envelope"></i> w642kelley@gmail.com</p>
+          </section>
+        </div>
+        
+        <div class="row3-col1-6">
+          <section>
+            <form>
+              <label for="rightColumn">* Name</label>
+              <input id="contactFormName" required/>
       
-      <section>
-        <h3>Past Experiences</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>SQL</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>Photoshop</li>
-          <li>Lightwave</li>
-          <li>After Effects</li>
-        </ul>
-      </section>
-  
-      <section>
-        <form>
-          <label for="rightColumn">* Name</label>
-          <input id="contactFormName" required/>
-  
-          <label for="contactFormEmail">* Email</label>
-          <input id="contactFormEmail" required/>
-  
-          <label for="contactFormPhoneNumber">Phone Number</label>
-          <input id="contactFormPhoneNumber" required/>
-  
-          <label for="contactFormAddressLabel">Address</label>
-          <label for="contactFormAddress">* Street Address</label>
-          <input id="contactFormAddress" required/>
-          <label for="contactFormAptUnit">Apt / Unit</label>
-          <input id="contactFormAptUnit"/>
-          <label for="contactFormCity">* City</label>
-          <input id="contactFormCity" required/>
-          <label for="contactFormState">* State</label>
-          <input id="contactFormState" required/>
-          <label for="contactFormAZip">* Zip</label>
-          <input id="contactFormZip" required/>
-        </form>
-      </section>
+              <label for="contactFormEmail">* Email</label>
+              <input id="contactFormEmail" required/>
+      
+              <label for="contactFormPhoneNumber">Phone Number</label>
+              <input id="contactFormPhoneNumber" required/>
+      
+              <label for="contactFormAddressLabel">Address</label>
+              <label for="contactFormAddress">* Street Address</label>
+              <input id="contactFormAddress" required/>
+              <label for="contactFormAptUnit">Apt / Unit</label>
+              <input id="contactFormAptUnit"/>
+              <label for="contactFormCity">* City</label>
+              <input id="contactFormCity" required/>
+              <label for="contactFormState">* State</label>
+              <input id="contactFormState" required/>
+              <label for="contactFormAZip">* Zip</label>
+              <input id="contactFormZip" required/>
+            </form>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 </html>
