@@ -1,0 +1,12 @@
+body{
+  font-family: Gaegu;
+  /* background-color: blue; */
+}
+
+h1 {
+  background: -webkit-linear-gradient(white, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  font-size: 400%;
+  text-align: center;
+}
