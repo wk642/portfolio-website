@@ -3,10 +3,25 @@ body{
   /* background-color: blue; */
 }
 
+.container {
+  margin: 0, auto;
+}
+
+header {
+  text-align: center;
+}
 h1 {
   background: -webkit-linear-gradient(white, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
   font-size: 400%;
   text-align: center;
+}
+
+#profile-picture {
+  width: 20%;
+  height: 20%;
+  border: 10px solid red;
+  border-radius: 50%; 
+  margin-top: 1%;
 }
