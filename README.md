@@ -1,5 +1,7 @@
 # WINNIE KELLEY'S PORTFOLIO
 
+### My live link is https://wk642.github.io/portfolio-website/
+
 ### This is a portfolio website is the first step to building my portfolio. So far I used:
 
 1. HTML
