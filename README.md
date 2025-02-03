@@ -1,5 +1,4 @@
 # WINNIE KELLEY'S PORTFOLIO
-###### _________________________
 
 ### This is a portfolio website is no where near where I want it to be. But for now, this will be version 1.0
 
