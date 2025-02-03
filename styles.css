@@ -133,6 +133,14 @@ input {
   width: 95%;
 }
 
+.card {
+  width: 25%;
+  display: inline-flex;
+  border: 2px solid black;
+  box-shadow: 8px 8px black;
+  margin-bottom: 2%;
+}
+
 /* Media Queries */
 /* for narrow screen */
 @media screen and (max-width: 600px) {
