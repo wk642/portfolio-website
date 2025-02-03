@@ -29,49 +29,16 @@ h1 {
   font-size: 30px;
 }
 
-.toprow-1 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-}
-
-.toprow-2 {
-  grid-column-start: 2;
-  grid-column-end: 2;
-}
-
-.toprow-3 {
-  grid-column-start: 3;
-  grid-column-end: 3;
-}
-
-.toprow-4 {
-  grid-column-start: 4;
-  grid-column-end: 4;
-}
-
-.toprow-5 {
-  grid-column-start: 5;
-  grid-column-end: 5;
-}
-
-.toprow-6 {
-  grid-column-start: 6;
-  grid-column-end: 6;
-}
-
 .row1-col1-6 {
   /* background-color: aqua; */
   grid-column-start: 1;
-  grid-column-end: 6;
-  /* margin-left: 1%; */
-  /* margin-right: 1%; */
+  grid-column-end: 7;
 }
 
 .row2-col1-4 {
   background-color: red;
   grid-column-start: 1;
-  grid-column-end: 4;
-  /* margin-left: 2%; */
+  grid-column-end: 5;
 }
 
 .row2-col5-6 {
@@ -84,7 +51,13 @@ h1 {
   grid-column-start: 1;
   grid-column-end: 6;
   margin-left: 1%;
+  height: 100%;
+  background-color: green;
 } 
+
+.must-fill {
+  color: red;
+}
 
 #profile-picture {
   width: 20%;
@@ -95,12 +68,122 @@ h1 {
   margin-top: 1%;
   margin-bottom: -6%;
 }
+#self-description {
+  margin-top: -3%;
+}
 
 a {
   text-decoration: none;
   color: black;
 }
 
+.side-nav li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1%;
+  border-radius: 9%;
+  /* background: #555; */
+  /* color: #f1f1f1; */
+}
+
+.side-nav li a:hover {
+  color: white;
+}
+
+/* Image with overlays */
+/* .past-experiences li {
+  list-style-type: none;
+  display: flexbox;
+  border-radius: 50%;
+  border: 10px solid red;
+} */
+
+/* .individul-experience-container {
+  background-color: blue;
+  width: 25%;
+  display: inline-flexbox;
+  float: left;
+  /* border-radius: 50%;
+  border: 10px solid blue;
+  float: left; */
+/* }  */
+
+/* .experience-image {
+  width: 25%;
+  display: inline;
+
+/*
+  border-radius: 50%;
+  border: 10px solid blue;
+ */
+/* }  */
+
+/* .experience-title {
+  margin: 0, auto;
+}  */
+
+/* .past-experiences ul li {
+  list-style-type: none;
+  background-color: blue;
+}
+.individul-experience-container {
+  position: relative;
+  width: 25%;
+  background-color: cadetblue;
+  margin: 1%;
+  display: inline-flexbox;
+  float: left;
+}
+
+.experience-image {
+  width: 45%;
+}
+
+.individul-experience-overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 32%;
+  transition: .1s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 10%;
+  text-align: center;
+}
+
+.individul-experience-container:hover .individul-experience-overlay {
+  opacity: 1;
+} */
+
+.past-experiences ul li {
+  list-style-type: none;
+  /* background-color: blue; */
+}
+.individul-experience-container {
+  display: inline-flexbox;
+  width: 15%;
+  height: 10%;
+  line-height: 10%;
+  border-radius: 25px;
+  background-color: black;
+  margin: 2%;
+}
+
+.fa-html5, .fa-css3-alt {
+  color: white;
+  border-radius: 50px;
+  border: 3px solid orange;
+}
+
+.experience-text {
+  color: white;
+  display: inline-flex;
+}
+/* Media Queries */
 /* for narrow screen */
 @media screen and (max-width: 600px) {
   h1 {
