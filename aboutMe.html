@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Viewport meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Including open graph metadata -->
+  <meta property="og:title" content="Winnie Kelley's Portfolio">
+  <meta property="og:description" content="Portfolio site to showcase my projects and growth.">
+  <!-- 2 social meta tags-->
+  <meta property="og:url" content="https://www.linkedin.com/in/w642kelley/">
+  <meta property="og:description" content="Winnie Kelley's linkedin profile">
+  <meta property="og:url" content="https://www.facebook.com/winnie.kelley.92">
+  <meta property="og:description" content="Winnie Kelley's facebook page.">
+
+  <!-- Adding Google Analytic -->
+   <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JY55P7EG8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1JY55P7EG8');
+  </script>
+
+  <title>Winnie Kelley</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Font : Gaegu -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+  <!-- Google font : Silkscreen -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Google font : Edu AU VIC WA NT Guides-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
+
+  <!-- adding fontawesome for icon-->
+  <script src="https://kit.fontawesome.com/6190dbb9d7.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div class="container">
+      <div class="grid-container">
+        <div class="row1-col1-6">
+          <header>
+            <img src="./assets/images/profilePicture.jpeg" alt="portfolio picutre" id="profile-picture">
+            <h1>Winnie Kelley</h1>
+            <h5 id="self-description">Thrive in building and problem-solving. Come follow my growing journey by coding byte by byte.</h5>
+
+            <nav class="side-nav">
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutMe.html">About Me</a></li>
+                <li><a href="./myWork.html">My Work</a></li>
+                <li><a href="./upcomingWork.html">Upcoming Work</a></li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+        
+        <div class="row2-col1-4">
+          <h2> Welcome to my Portfolio</h2>
+
+          <h5> Creating memories with my family is a priority in my life. I love building things and solving problems and cannot wait to apply those skills as a software engineer, giving back to the tech industry.
+          <br>
+          Growing up, I struggled with comprehending emotions and was bullied a lot, a lot of times I wished I had a robot companion that could be by my side not only for comfort but also to help me learn and understand others.
+          <br>
+          Some day I want to build my own robot / video game company </h5>
+        </div>
+
+        <div class="row2-col5-6">          
+          <section class="contact-info">
+            <p><i class="fa-solid fa-phone"></i>  617.416.1794</p>
+            <p><a href="mailto:w642kelley@gmail.com"><i class="fa-solid fa-envelope"></i> w642kelley@gmail.com</p></a>
+            <p><i class="fa-solid fa-location-dot"></i> Murfreesboro, TN</p>
+            <p><i class="fa-solid fa-magnifying-glass"></i> Looking for remote work</p>
+            <div id="social-media-icons">
+              <a href="https://www.facebook.com/winnie.kelley.92" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+              <a href="https://www.instagram.com/winniekelley642" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+              
+              <a href="https://www.linkedin.com/in/w642kelley/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+              <a href="https://www.tiktok.com/@winniekelley642" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+
+              <a href="https://stackoverflow.com/users/28781255/wk642" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+
+              <a href="https://github.com/wk642" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+
+              <a href="https://www.youtube.com/@buildByteByByte" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </section>
+
+          <section class="contact-form">
+            <form>
+              <div>
+                <label for="name">Name<span style="color: red">*</span></label>
+                <input type="text" name="name" id="name" placeholder="What is your name?" required aria-required="true"/>
+              </div>
+          
+              <div>
+                <label for="email">Email<span style="color: red">*</span></label>
+                <input type="text" name="email" id="email" placeholder="Email for me to respond to please" required aria-required="true"/>
+              </div>
+          
+              <div>
+                <label for="phoneNumber">Phone #</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" placeholder="If you prefer text or call..."/>
+              </div>
+
+              <div>
+                <label for="Adress">Address</label> 
+                <br>
+                <input type="text" name="street" id="street" placeholder="Street"/>
+                <br>
+                <input type="text" name="unit" id="unit" placeholder="Apt/Unit"/>
+                <br>
+                <input type="text" name="city" id="city" placeholder="City"/>
+                <br>
+                <input type="text" name="state" id="state" placeholder="State"/>
+                <br>
+                <input type="text" name="zip" id="zip" placeholder="Zip Code"/>
+                <br>
+              </div>
+          
+              <button type="submit" id="submit">Submit</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Always updating, come back and visit!
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
